@@ -1,16 +1,7 @@
 # Quantum circuit evolutionary framework applied on set partitioning problem
 
-> Quantum Evolutionary Computation, Set Partitioning Problem, VQE, Barren Plateaus
-<!-- 
-[![PyPI](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3120/) -->
-<!-- [![License](https://img.shields.io/badge/License-GNU-yellow.svg)](https://opensource.org/license/gpl-3-0/)
-[![arXiv](https://img.shields.io/badge/arXiv-2411.17630-blue)](https://arxiv.org/abs/2411.17630)
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2411.17630-blue)](https://doi.org/10.48550/arXiv.2411.17630) -->
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunooziel/) -->
 
-<!-- <div style="display: flex; justify-content: center; align-items: left; gap: 5px;">
-  <img src="figures\plot_6.2.png" width="490">
-  <img src="figures\plot_14.4.png" width="490">
-</div> -->
 # <p align="center"><img src="figures\convergence_curve.png" width="980"></p>
 > Figure 1: Illustration of the convergence curves of the VQE, AF-QCE, and APCD-QCE algorithms for 6 qubits and 14 qubits, respectively.
 
@@ -34,8 +25,6 @@ We evaluated our algorithms using 35 benchmark instances from Svensson et al., t
 ### Notebooks:
 1. ```experiment_vqe.ipynb:``` Demonstrates the Variational Quantum Eigensolver (VQE) based on the configuration used by Cacao et al. in [3].
 2. ```experiment_qce.ipynb:``` Explores the AF-QCE and APCD-QCE methods in both noiseless and noisy scenarios.
-
-## Citation
 
 # <p align="center"><img src="figures\fig_apcd_ansatz.png" width="980"></p>
 > Figure 2:  Counterdiabatic circuit structure for the APCD-QCE method, where only the term $U_{PCD}$ undergoes topology variations.
